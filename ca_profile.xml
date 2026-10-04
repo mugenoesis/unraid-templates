@@ -1,0 +1,14 @@
+<CommunityApplications>
+  <Profile>
+    Unraid templates for **Trident**, a self-hosted slicer with a web UI. Trident runs OrcaSlicer's slicing engine headless in Docker, so you can slice from any browser or phone, with OrcaSlicer's full printer and filament library built in and extra support for belt (conveyor) printers.
+
+    **Apps in this repository**
+    - **Trident**: the slicer and web UI.
+
+    **Support**: please open an issue at https://github.com/mugenoesis/Trident/issues.
+  </Profile>
+  <Icon>https://raw.githubusercontent.com/mugenoesis/unraid-templates/main/icon.png</Icon>
+  <WebPage>https://github.com/mugenoesis/Trident</WebPage>
+  <DonateLink>https://ko-fi.com/mugenoesis</DonateLink>
+  <DonateText>Trident is free and built in my spare time. If it helps you, you can support it on Ko-fi.</DonateText>
+</CommunityApplications>
