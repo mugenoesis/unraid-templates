@@ -19,6 +19,7 @@
   <Changes>Initial release.</Changes>
   <Date>2026-10-19</Date>
   <License>AGPL-3.0</License>
+  <Screenshot>https://raw.githubusercontent.com/mugenoesis/unraid-templates/main/screenshots/holecraft.png</Screenshot>
   <DonateText>Holecraft is free and built in my spare time. If it helps you, you can support it on Ko-fi.</DonateText>
   <DonateLink>https://ko-fi.com/mugenoesis</DonateLink>
   <Config Name="WebUI Port" Target="8080" Default="8080" Mode="tcp" Description="Port for the web UI." Type="Port" Display="always" Required="true" Mask="false">8080</Config>
