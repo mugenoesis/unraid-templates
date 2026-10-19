@@ -1,0 +1,26 @@
+<?xml version="1.0"?>
+<Container version="2">
+  <Name>Holecraft</Name>
+  <Repository>mugenoesis/holecraft</Repository>
+  <Registry>https://hub.docker.com/r/mugenoesis/holecraft</Registry>
+  <Network>bridge</Network>
+  <Shell>sh</Shell>
+  <Privileged>false</Privileged>
+  <Icon>https://raw.githubusercontent.com/mugenoesis/unraid-templates/main/icon-holecraft.png</Icon>
+  <WebUI>http://[IP]:[PORT:8080]/</WebUI>
+  <ExtraParams>--user 99:100</ExtraParams>
+  <Overview>Open-source, offline, browser-based 3D modelling for makers. Build parts from shapes, cut holes, add fasteners, hollow and tilt models for resin printing, place support points, and export STL or 3MF, with no account and nothing sent to the internet. Designs are saved on your server. It can send a model straight to Trident, the self-hosted slicer, and its Resin tools (hollow, drain holes, supports) use Trident 0.7.0 or later. There is no login: keep it on a trusted network.</Overview>
+  <Support>https://github.com/mugenoesis/holecraft/issues</Support>
+  <Project>https://github.com/mugenoesis/holecraft</Project>
+  <TemplateURL>https://raw.githubusercontent.com/mugenoesis/unraid-templates/main/templates/holecraft.xml</TemplateURL>
+  <ReadMe>https://raw.githubusercontent.com/mugenoesis/holecraft/main/README.md</ReadMe>
+  <Category>Tools:Utilities</Category>
+  <ExtraSearchTerms>3d modeling cad tinkercad stl 3mf 3d printing resin supports hollow trident</ExtraSearchTerms>
+  <Changes>Initial release.</Changes>
+  <Date>2026-10-19</Date>
+  <License>AGPL-3.0</License>
+  <DonateText>Holecraft is free and built in my spare time. If it helps you, you can support it on Ko-fi.</DonateText>
+  <DonateLink>https://ko-fi.com/mugenoesis</DonateLink>
+  <Config Name="WebUI Port" Target="8080" Default="8080" Mode="tcp" Description="Port for the web UI." Type="Port" Display="always" Required="true" Mask="false">8080</Config>
+  <Config Name="Data" Target="/data" Default="/mnt/user/appdata/holecraft" Mode="rw" Description="Saved designs and settings (including the Trident connection)." Type="Path" Display="always" Required="true" Mask="false">/mnt/user/appdata/holecraft</Config>
+</Container>
