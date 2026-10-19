@@ -1,11 +1,12 @@
 <CommunityApplications>
   <Profile>
-    Unraid templates for **Trident**, a self-hosted slicer with a web UI. Trident runs OrcaSlicer's slicing engine headless in Docker, so you can slice from any browser or phone, with OrcaSlicer's full printer and filament library built in and extra support for belt (conveyor) printers.
+    Unraid templates for **Trident**, a self-hosted slicer with a web UI, and **Holecraft**, a browser-based 3D modeller for makers. Trident runs OrcaSlicer's slicing engine headless in Docker, so you can slice from any browser or phone, with OrcaSlicer's full printer and filament library built in and extra support for belt (conveyor) printers.
 
     **Apps in this repository**
     - **Trident**: the slicer and web UI.
+    - **Holecraft**: offline 3D modelling in the browser, with resin tools (hollowing, drain holes, support points) that use Trident.
 
-    **Support**: please open an issue at https://github.com/mugenoesis/Trident/issues.
+    **Support**: please open an issue at https://github.com/mugenoesis/Trident/issues (Trident) or https://github.com/mugenoesis/holecraft/issues (Holecraft).
   </Profile>
   <Icon>https://raw.githubusercontent.com/mugenoesis/unraid-templates/main/icon.png</Icon>
   <WebPage>https://github.com/mugenoesis/Trident</WebPage>
